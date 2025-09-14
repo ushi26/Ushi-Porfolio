@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Dongle&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward');
+
+body
+{
+     font-family: 'baloo 2' , arial;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262;
+    margin: 0;
+}
+h1
+{
+  font-family: 'Matemasie';
+  font-weight: 400;
+  font-size: 48px;
+}
+h4
+{
+  font-family: 'Matemasie';
+  font-weight: 400;
+  font-size: 32px;
+}
+h2 , h3
+{
+    font-family: 'Dongle';
+    font-weight: 400;
+}
+h2 {font-weight: 32px;}
+h3 {font-size: 16px;}
+p {font-size: 12px;}
+a {text-decoration: none; font-weight: 700;}
+
+.p-24 {padding: 24px}
+.p-48 {padding:48px}
+.pt-24 {padding-top: 24px;}
+.pb-24 {padding-bottom: 24px;}
+.p-right-24 {padding-right: 24px;}
+.p-left-24 {padding-left: 24px;}
+.mt-24 {margin-top:24px}
+.mt-48 {margin-top:48px}
+.w-50 {width:500px}
+
+
+.justify-end {  display: flex;              
+  justify-content: flex-end; }
+.justify-between{ display: flex; justify-content: space-between; /* chữ bên trái, logo bên phải */}
+.box-center {justify-items: center; align-content: center; text-align: center; display: block;}
+.algin-end {align-items: end;}
+.flex {display:flex}
+.nodown {white-space:nowrap;}
+
+
+/*color*/
+.primary-text {color:#24D56D}
+.secondary-text {color:#2227f7}
+.light-text {color:azure}
+.dark-text {color:#00001b}
+
+.primary-bg {background-color:#00001b}
+.secondary-bg {background-color:whitesmoke;}
+
+.border-radius {border-radius: 24px;}
+.white-border {border:whitesmoke solid 5px}
+.border-circle {border-radius: 100%;}
+
+.nav-pills .nav-link.active{ background:#00001b ; color:whitesmoke}
+.nav-pills .nav-link { color:#00001b}
+
+.navbar-collapse ul li a:hover
+{
+    /* background-color = màu nền khi di chuột qua */
+    /* color = màu chữ khi di chuột qua */
+    position: relative; /* cha làm mốc */
+    border-radius: 16px;
+    background-color: #00001b;
+    color:whitesmoke;
+}
+
+.navbar {  position: fixed; /* cố định vị trí */
+    margin-top: 0; /* cách mép trên */
+    top: 0; /* bám mép trên */
+    background-color: rgba(255, 255, 255, 0.748) ; /* màu nền trong suốt */
+    backdrop-filter: blur(10px); /* làm mờ nền */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* bóng đổ nhẹ */
+    z-index: 1000; /* nổi lên trên các phần tử khác */
+    width: 100%; /* chiếm toàn bộ chiều rộng */ /* màu nền trong suốt */}
+
+
+
+.bg-index {width: 100%;}
+
